@@ -4,7 +4,7 @@ import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Task from './Task';
 import Contacts from './components/Contacts';
-import About from './components/About';
+import Meals from './components/Meals';
 import History from './components/History';
 
 
@@ -17,7 +17,7 @@ root.render(
         <Route path="/contacts" element={<Contacts />} >
           <Route path="history" element={<History />} />
         </Route>
-        <Route path="/about" element={<About />} />
+        <Route path="/meals" element={<Meals />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

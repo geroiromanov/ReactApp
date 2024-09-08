@@ -6,7 +6,7 @@ export default function Contacts()
         <>
             <nav>
                 <Link to="/">Task</Link>
-                <Link to="/about">about</Link>
+                <Link to="/meals">meals</Link>
             </nav>
             <h1>Contacts</h1>
             <Outlet />

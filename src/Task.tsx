@@ -5,8 +5,8 @@ export default function Task()
     return (
         <>
             <h1>Tasks</h1>
-            <TaskAdd />
-            <TaskList />
+            {/* <TaskAdd />
+            <TaskList /> */}
         </>
     )
 }
