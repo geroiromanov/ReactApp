@@ -12,7 +12,7 @@ export default function MealEl({meal, onSelectMeal})
 
     return (
         <>
-            <li key={meal.id}><input checked={isSelected} type="checkbox" onChange={onChange} /> {meal.name} - {meal.calories} cal.</li>
+            <li key={meal.id}><input checked={isSelected} type="checkbox" onChange={onChange} /> {meal.userId} - {meal.title} cal.</li>
         </>
     )
 }

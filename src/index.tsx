@@ -6,6 +6,7 @@ import Task from './Task';
 import Contacts from './components/Contacts';
 import Meals from './components/Meals';
 import History from './components/History';
+import PostsLayout from './components/Posts/PostsLayout';
 
 
 const root = createRoot(document.getElementById('root') as HTMLElement);
@@ -17,7 +18,7 @@ root.render(
         <Route path="/contacts" element={<Contacts />} >
           <Route path="history" element={<History />} />
         </Route>
-        <Route path="/meals" element={<Meals />} />
+        <Route path="/posts" element={<PostsLayout />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
